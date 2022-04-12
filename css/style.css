@@ -1,0 +1,196 @@
+#root #con .page-1 > div:nth-child(2) > div:nth-child(1) nav ul, #root #con .page-1 > div:nth-child(2) > div:nth-child(3), #root #con .page-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root #con {
+  width: 100%;
+  height: 100%;
+}
+
+#root #con .page-1 > div:nth-child(1) > div:nth-child(1), #root #con .page-1 > div:nth-child(1) > div:nth-child(2) {
+  border-radius: 100%;
+}
+
+#root #con .page-1, #root #con .page-1 > div:nth-child(2), #root #con .page-2 {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#root #con .page-1 > div:nth-child(2) {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body {
+  color: dimgray;
+}
+
+#root {
+  width: 100vw;
+  height: 200vh;
+}
+
+#root #con .page-1 > div:nth-child(1) {
+  width: 120vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  z-index: -1;
+}
+
+#root #con .page-1 > div:nth-child(1) > div:nth-child(1) {
+  width: 70vw;
+  height: 70vw;
+  background-color: #d6d6d6;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  position: relative;
+  top: -10vh;
+}
+
+#root #con .page-1 > div:nth-child(1) > div:nth-child(2) {
+  width: 50vw;
+  height: 50vw;
+  background-color: #d6d6d6;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  position: relative;
+  top: 20vh;
+  left: -30vw;
+}
+
+#root #con .page-1 > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root #con .page-1 > div:nth-child(2) > div:nth-child(1) {
+  width: 95%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+#root #con .page-1 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+  font-weight: 600;
+}
+
+#root #con .page-1 > div:nth-child(2) > div:nth-child(1) nav ul {
+  list-style-type: none;
+  -webkit-column-gap: 2vw;
+          column-gap: 2vw;
+}
+
+#root #con .page-1 > div:nth-child(2) > div:nth-child(2) {
+  width: 95%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+#root #con .page-1 > div:nth-child(2) > div:nth-child(3) {
+  width: 95%;
+  height: 30%;
+}
+
+#root #con .page-1 > div:nth-child(2) > div:nth-child(3) > div {
+  width: 80%;
+  height: 100%;
+  line-height: 5vw;
+  font-size: 0.8rem;
+}
+
+#root #con .page-2 > div {
+  width: 80%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#root #con .page-2 > div > div:nth-child(1) {
+  width: 30%;
+  height: inherit;
+}
+
+#root #con .page-2 > div > div:nth-child(1) > div:nth-child(1) {
+  width: 100%;
+  height: 90%;
+  background-color: #c4c4c4;
+}
+
+#root #con .page-2 > div > div:nth-child(1) > div:nth-child(2) {
+  color: #000;
+}
+
+#root #con .page-2 > div > div:nth-child(2) {
+  width: 68%;
+  height: inherit;
+}
+
+#root #con .page-2 > div > div:nth-child(2) > div:nth-child(1) {
+  width: 100%;
+  height: 75%;
+}
+
+#root #con .page-2 > div > div:nth-child(2) > div:nth-child(2) {
+  font-size: 0.5rem;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
