@@ -40,6 +40,9 @@ $per100: 100%;
 %flex-column{
   flex-direction: column;
 }
+%hidden{
+  overflow: hidden;
+}
 
 // style
 body{
@@ -50,14 +53,16 @@ body{
   @include width-height(100vw, 200vh);
   #con{
     @extend %per-100;
+    @extend %hidden;
     .page-1{
       @extend %view-100;
       // border: $border-bk;
-
       // bg page1
       >div:nth-child(1){
         @include width-height(120vw, $per100);
         @include flex-align-justify(flex-start, space-between);
+        // rotate를 줘서 대각선으로 배치해봄
+        transform: rotate(-20deg);
         position: absolute;
         z-index: -1;
         >div:nth-child(1){
@@ -66,7 +71,7 @@ body{
           @extend %circle;
           order: 2;
           position: relative;
-          top: -10vh;
+          left: 20vw;
         }
         >div:nth-child(2){
           @include width-height(50vw, 50vw);
@@ -74,8 +79,7 @@ body{
           @extend %circle;
           order: 1;
           position: relative;
-          top: 20vh;
-          left: -30vw;
+          right: 20vw;
         }
       }
 
