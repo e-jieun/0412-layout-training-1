@@ -177,6 +177,7 @@ body {
 
 #root #con .page-2 > div > div:nth-child(1) > div:nth-child(2) {
   color: #000;
+  font-weight: 500;
 }
 
 #root #con .page-2 > div > div:nth-child(2) {
@@ -192,5 +193,6 @@ body {
 #root #con .page-2 > div > div:nth-child(2) > div:nth-child(2) {
   font-size: 0.5rem;
   color: #000;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
