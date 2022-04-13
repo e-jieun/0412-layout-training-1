@@ -79,7 +79,8 @@ body{
           @extend %circle;
           order: 1;
           position: relative;
-          right: 20vw;
+          top: -20vh;
+          right: 30vw;
         }
       }
 
@@ -120,9 +121,12 @@ body{
         >div:nth-child(3){
           @include width-height(95%, 30%);
           // border: $border-bk;
-          @extend %flex-center-center;
+          // @extend %flex-center-center;
+          @include flex-align-justify(center, flex-start);
           >div{
-            @include width-height(80%, $per100);
+            @include width-height(50%, $per100);
+            position: relative;
+            left: 10vw;
             // border: $border-bk;
             line-height: 5vw;
             font-size: 0.8rem
@@ -141,7 +145,7 @@ body{
         @include flex-align-justify(flex-end, space-between);
 
         >div:nth-child(1){
-          @include width-height(30%, inherit);
+          @include width-height(20%, inherit);
           // border: $border-bk;
           >div:nth-child(1){
             @include width-height($per100, 90%);
@@ -153,7 +157,7 @@ body{
           }
         }
         >div:nth-child(2){
-          @include width-height(68%, inherit);
+          @include width-height(79%, inherit);
           // border: $border-red;
           >div:nth-child(1){
             @include width-height($per100, 75%);
